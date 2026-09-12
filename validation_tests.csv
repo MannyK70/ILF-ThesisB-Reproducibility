@@ -1,0 +1,7 @@
+test_name,status
+All six module outputs exist,PASS
+Module 6 audit scores remain between 0 and 100,PASS
+Scenario GEI scores remain between 0 and 100,PASS
+Scenario output contains ILF,PASS
+Statistical summary includes confidence intervals,PASS
+Comparative tests include all six scenarios,PASS

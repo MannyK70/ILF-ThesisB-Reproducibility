@@ -1,0 +1,7 @@
+governance_deficiency,ilf_module,hypothesis_link,evaluation_metrics,evidence_file
+GD1 Consent not activated after death,M1 Consent and Preference Management,H1 Autonomy Protection,preference_completion_rate; m1_pass_rate,module1_records.csv
+GD2 Reliance on third-party reporting,M2 Automated Deceased User Identification,H3 Security Integrity,verified_candidate_rate; protective_state_rate,module2_records.csv
+GD3 Inconsistent verification procedures,M3 Verification and Authentication,H2 Legal Coherence,verification_success_rate; mean_verification_score,module3_records.csv
+GD4 Disclosure uncertainty and contractual dominance,M4 Semantic Classification and Access Control,H1/H2 Autonomy and Legal Coherence,consent_compliance_rate; privacy_preservation_rate,module4_records.csv
+GD5 Dormant account and synthetic identity risks,M5 Identity Protection and Misuse Prevention,H3 Security Integrity,protective_action_rate; synthetic_identity_flag_rate,module5_records.csv
+GD6 Lack of transparency and accountability,M6 Oversight and Governance Transparency,H4 Procedural Transparency,audit_completeness_mean; accountable_record_rate,module6_records.csv

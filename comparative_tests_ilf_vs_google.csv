@@ -1,0 +1,7 @@
+scenario,comparison,mean_difference,cohens_d,p_value,interpretation
+Audit Challenge,ILF vs Google-style,43.045,11.4948,0.0,ILF higher in synthetic simulation
+Cross-Jurisdiction Access Request,ILF vs Google-style,40.0211,11.6493,0.0,ILF higher in synthetic simulation
+Death Notification,ILF vs Google-style,40.8975,12.807,0.0,ILF higher in synthetic simulation
+Deathbot or Deepfake Attack,ILF vs Google-style,44.6062,11.2872,0.0,ILF higher in synthetic simulation
+Dormant Account Exploitation,ILF vs Google-style,43.9181,11.6334,0.0,ILF higher in synthetic simulation
+Executor Verification,ILF vs Google-style,39.426,11.8209,0.0,ILF higher in synthetic simulation

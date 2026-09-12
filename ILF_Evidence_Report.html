@@ -1,0 +1,328 @@
+
+    <html><head><title>ILF Evidence Report</title>
+    <style>
+    body { font-family: Arial, sans-serif; margin: 30px; line-height: 1.45; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 24px; }
+    th, td { border: 1px solid #ccc; padding: 6px; font-size: 12px; }
+    th { background: #f2f2f2; }
+    h1, h2 { color: #1f4e79; }
+    .note { background: #fff4cc; padding: 12px; border-left: 4px solid #d9a300; }
+    </style></head><body>
+    <h1>Information Legacy Framework Dashboard V3 Evidence Report</h1>
+    <p><strong>Generated:</strong> 2026-09-02 03:27</p>
+    <p><strong>Configuration:</strong> n_users=1200, n_runs=4000, seed=20260316</p>
+    <div class="note"><strong>Validity boundary:</strong> Results are based on synthetic data and representative analytical baselines. They support proof-of-concept, operational feasibility and evaluation feasibility, not direct measurement of proprietary platform systems.</div>
+    <h2>Validation Tests</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>test_name</th>
+      <th>status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All six module outputs exist</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>Module 6 audit scores remain between 0 and 100</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>Scenario GEI scores remain between 0 and 100</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>Scenario output contains ILF</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>Statistical summary includes confidence intervals</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>Comparative tests include all six scenarios</td>
+      <td>PASS</td>
+    </tr>
+  </tbody>
+</table>
+    <h2>Approach-Level Mean GEI</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>approach</th>
+      <th>mean_gei</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ILF</td>
+      <td>98.787567</td>
+    </tr>
+    <tr>
+      <td>Google-style</td>
+      <td>56.801900</td>
+    </tr>
+    <tr>
+      <td>Facebook-style</td>
+      <td>54.387183</td>
+    </tr>
+    <tr>
+      <td>LinkedIn-style</td>
+      <td>51.223400</td>
+    </tr>
+    <tr>
+      <td>X-style</td>
+      <td>44.216750</td>
+    </tr>
+  </tbody>
+</table>
+    <h2>Module Metrics</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>module</th>
+      <th>metric</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>module1</td>
+      <td>preference_completion_rate</td>
+      <td>79.2500</td>
+    </tr>
+    <tr>
+      <td>module1</td>
+      <td>executor_nomination_rate</td>
+      <td>82.5000</td>
+    </tr>
+    <tr>
+      <td>module1</td>
+      <td>conflict_detection_rate</td>
+      <td>24.7500</td>
+    </tr>
+    <tr>
+      <td>module1</td>
+      <td>m1_pass_rate</td>
+      <td>43.8333</td>
+    </tr>
+    <tr>
+      <td>module2</td>
+      <td>mean_deceased_confidence</td>
+      <td>59.2892</td>
+    </tr>
+    <tr>
+      <td>module2</td>
+      <td>verified_candidate_rate</td>
+      <td>23.0833</td>
+    </tr>
+    <tr>
+      <td>module2</td>
+      <td>protective_state_rate</td>
+      <td>61.4167</td>
+    </tr>
+    <tr>
+      <td>module2</td>
+      <td>human_review_guard_rate</td>
+      <td>1.0000</td>
+    </tr>
+    <tr>
+      <td>module3</td>
+      <td>verification_success_rate</td>
+      <td>56.6787</td>
+    </tr>
+    <tr>
+      <td>module3</td>
+      <td>executor_authority_document_rate</td>
+      <td>75.0903</td>
+    </tr>
+    <tr>
+      <td>module3</td>
+      <td>review_or_rejection_rate</td>
+      <td>43.3213</td>
+    </tr>
+    <tr>
+      <td>module3</td>
+      <td>mean_verification_score</td>
+      <td>82.4729</td>
+    </tr>
+    <tr>
+      <td>module4</td>
+      <td>consent_compliance_rate</td>
+      <td>88.3758</td>
+    </tr>
+    <tr>
+      <td>module4</td>
+      <td>restricted_data_leakage_rate</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>module4</td>
+      <td>privacy_preservation_rate</td>
+      <td>100.0000</td>
+    </tr>
+    <tr>
+      <td>module4</td>
+      <td>grant_rate</td>
+      <td>35.0318</td>
+    </tr>
+    <tr>
+      <td>module5</td>
+      <td>mean_risk_score</td>
+      <td>29.0102</td>
+    </tr>
+    <tr>
+      <td>module5</td>
+      <td>protective_action_rate</td>
+      <td>25.0746</td>
+    </tr>
+    <tr>
+      <td>module5</td>
+      <td>governance_escalation_rate</td>
+      <td>22.0896</td>
+    </tr>
+    <tr>
+      <td>module5</td>
+      <td>synthetic_identity_flag_rate</td>
+      <td>22.0896</td>
+    </tr>
+    <tr>
+      <td>module6</td>
+      <td>audit_completeness_mean</td>
+      <td>94.4400</td>
+    </tr>
+    <tr>
+      <td>module6</td>
+      <td>accountable_record_rate</td>
+      <td>98.6400</td>
+    </tr>
+    <tr>
+      <td>module6</td>
+      <td>oversight_required_rate</td>
+      <td>64.1600</td>
+    </tr>
+    <tr>
+      <td>module6</td>
+      <td>audit_deficiency_rate</td>
+      <td>1.3600</td>
+    </tr>
+  </tbody>
+</table>
+    <h2>Comparative Tests</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>scenario</th>
+      <th>comparison</th>
+      <th>mean_difference</th>
+      <th>cohens_d</th>
+      <th>p_value</th>
+      <th>interpretation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Audit Challenge</td>
+      <td>ILF vs Google-style</td>
+      <td>43.0450</td>
+      <td>11.4948</td>
+      <td>0.0</td>
+      <td>ILF higher in synthetic simulation</td>
+    </tr>
+    <tr>
+      <td>Cross-Jurisdiction Access Request</td>
+      <td>ILF vs Google-style</td>
+      <td>40.0211</td>
+      <td>11.6493</td>
+      <td>0.0</td>
+      <td>ILF higher in synthetic simulation</td>
+    </tr>
+    <tr>
+      <td>Death Notification</td>
+      <td>ILF vs Google-style</td>
+      <td>40.8975</td>
+      <td>12.8070</td>
+      <td>0.0</td>
+      <td>ILF higher in synthetic simulation</td>
+    </tr>
+    <tr>
+      <td>Deathbot or Deepfake Attack</td>
+      <td>ILF vs Google-style</td>
+      <td>44.6062</td>
+      <td>11.2872</td>
+      <td>0.0</td>
+      <td>ILF higher in synthetic simulation</td>
+    </tr>
+    <tr>
+      <td>Dormant Account Exploitation</td>
+      <td>ILF vs Google-style</td>
+      <td>43.9181</td>
+      <td>11.6334</td>
+      <td>0.0</td>
+      <td>ILF higher in synthetic simulation</td>
+    </tr>
+    <tr>
+      <td>Executor Verification</td>
+      <td>ILF vs Google-style</td>
+      <td>39.4260</td>
+      <td>11.8209</td>
+      <td>0.0</td>
+      <td>ILF higher in synthetic simulation</td>
+    </tr>
+  </tbody>
+</table>
+    <h2>Traceability Matrix</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>governance_deficiency</th>
+      <th>ilf_module</th>
+      <th>hypothesis_link</th>
+      <th>evaluation_metrics</th>
+      <th>evidence_file</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GD1 Consent not activated after death</td>
+      <td>M1 Consent and Preference Management</td>
+      <td>H1 Autonomy Protection</td>
+      <td>preference_completion_rate; m1_pass_rate</td>
+      <td>module1_records.csv</td>
+    </tr>
+    <tr>
+      <td>GD2 Reliance on third-party reporting</td>
+      <td>M2 Automated Deceased User Identification</td>
+      <td>H3 Security Integrity</td>
+      <td>verified_candidate_rate; protective_state_rate</td>
+      <td>module2_records.csv</td>
+    </tr>
+    <tr>
+      <td>GD3 Inconsistent verification procedures</td>
+      <td>M3 Verification and Authentication</td>
+      <td>H2 Legal Coherence</td>
+      <td>verification_success_rate; mean_verification_score</td>
+      <td>module3_records.csv</td>
+    </tr>
+    <tr>
+      <td>GD4 Disclosure uncertainty and contractual dominance</td>
+      <td>M4 Semantic Classification and Access Control</td>
+      <td>H1/H2 Autonomy and Legal Coherence</td>
+      <td>consent_compliance_rate; privacy_preservation_rate</td>
+      <td>module4_records.csv</td>
+    </tr>
+    <tr>
+      <td>GD5 Dormant account and synthetic identity risks</td>
+      <td>M5 Identity Protection and Misuse Prevention</td>
+      <td>H3 Security Integrity</td>
+      <td>protective_action_rate; synthetic_identity_flag_rate</td>
+      <td>module5_records.csv</td>
+    </tr>
+    <tr>
+      <td>GD6 Lack of transparency and accountability</td>
+      <td>M6 Oversight and Governance Transparency</td>
+      <td>H4 Procedural Transparency</td>
+      <td>audit_completeness_mean; accountable_record_rate</td>
+      <td>module6_records.csv</td>
+    </tr>
+  </tbody>
+</table>
+    </body></html>
+    

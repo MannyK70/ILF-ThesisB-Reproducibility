@@ -1,0 +1,31 @@
+scenario,approach,mean_gei,ci95_lower,ci95_upper,sd,n
+Audit Challenge,Facebook-style,52.6524,52.4896,52.8152,5.2529,4000
+Audit Challenge,Google-style,55.8427,55.6789,56.0066,5.2847,4000
+Audit Challenge,ILF,98.8878,98.8771,98.8984,0.3444,4000
+Audit Challenge,LinkedIn-style,49.9886,49.8272,50.15,5.2063,4000
+Audit Challenge,X-style,42.9711,42.8103,43.132,5.1883,4000
+Cross-Jurisdiction Access Request,Facebook-style,55.5937,55.4437,55.7438,4.8394,4000
+Cross-Jurisdiction Access Request,Google-style,58.5686,58.4184,58.7189,4.8473,4000
+Cross-Jurisdiction Access Request,ILF,98.5897,98.5795,98.5999,0.3298,4000
+Cross-Jurisdiction Access Request,LinkedIn-style,53.8857,53.7374,54.0341,4.7857,4000
+Cross-Jurisdiction Access Request,X-style,44.9264,44.7786,45.0742,4.7689,4000
+Death Notification,Facebook-style,55.1215,54.9798,55.2632,4.5703,4000
+Death Notification,Google-style,57.7671,57.6275,57.9068,4.5058,4000
+Death Notification,ILF,98.6646,98.6551,98.6741,0.3055,4000
+Death Notification,LinkedIn-style,52.1459,52.0054,52.2863,4.5314,4000
+Death Notification,X-style,44.645,44.5016,44.7884,4.6264,4000
+Deathbot or Deepfake Attack,Facebook-style,53.4283,53.2559,53.6006,5.5597,4000
+Deathbot or Deepfake Attack,Google-style,54.443,54.27,54.6159,5.5791,4000
+Deathbot or Deepfake Attack,ILF,99.0492,99.039,99.0595,0.3308,4000
+Deathbot or Deepfake Attack,LinkedIn-style,48.7155,48.5427,48.8884,5.576,4000
+Deathbot or Deepfake Attack,X-style,43.9661,43.7943,44.1378,5.5407,4000
+Dormant Account Exploitation,Facebook-style,53.9002,53.7394,54.061,5.187,4000
+Dormant Account Exploitation,Google-style,55.0975,54.9322,55.2627,5.3294,4000
+Dormant Account Exploitation,ILF,99.0156,99.0057,99.0254,0.3178,4000
+Dormant Account Exploitation,LinkedIn-style,49.4818,49.3203,49.6434,5.2117,4000
+Dormant Account Exploitation,X-style,44.1601,43.9946,44.3256,5.3375,4000
+Executor Verification,Facebook-style,55.627,55.4837,55.7703,4.6219,4000
+Executor Verification,Google-style,59.0925,58.9466,59.2384,4.7057,4000
+Executor Verification,ILF,98.5185,98.5085,98.5285,0.3234,4000
+Executor Verification,LinkedIn-style,53.1229,52.9777,53.2681,4.6833,4000
+Executor Verification,X-style,44.6318,44.4825,44.7811,4.8164,4000
